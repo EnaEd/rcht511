@@ -11,9 +11,9 @@ export interface MessageDto {
 export interface SaveMessageDto {
     messageId?: string;
     messageText: string;
-    creatorId: string;
-    createdAt: string;
-    creatorName: string;
+    creatorId?: string;
+    createdAt?: string;
+    creatorName?: string;
 }
 
 export function mapToSaveMessageDto(model: SaveMessageModel): SaveMessageDto {

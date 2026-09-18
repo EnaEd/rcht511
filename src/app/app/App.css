@@ -1,0 +1,28 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.app-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    display: block;
+    background-color: #34aa91;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.content{
+    background-color: #f0f0f0;
+    height: 100%;
+    flex-grow: 1;
+}
+.footer{
+    background-color: #1d2b28;
+    height: 50px;
+}

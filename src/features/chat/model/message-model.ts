@@ -19,7 +19,7 @@ export function mapToMessageModel(dto: MessageDto): MessageModel {
 }
 
 export interface SaveMessageModel {
-    messageId?: string,
+    messageId?: string;
     messageText: string;
     creatorId: string;
     createdAt: string;

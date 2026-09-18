@@ -1,0 +1,22 @@
+.chat-component{
+    display: flex;
+    flex-grow: 1;
+    gap: 10px;
+    height: 100%;
+    border: 5px solid black;
+    padding: 10px;
+}
+
+.conversation{
+    display: flex;
+    flex: 2;
+    height: 100%;
+    background-color: lightgray;
+}
+
+.messageComponent{
+    display: flex;
+    flex: 1;
+    height: 100%;
+    background-color: beige;
+}
